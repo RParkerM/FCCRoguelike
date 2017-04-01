@@ -30,14 +30,14 @@ div#preload {
   background-image: url(http://res.cloudinary.com/rparkerm/image/upload/v1485637013/floor1_spu535.png); }
 
 .tile1029 {
-  background-image: url("..\\DungeonCrawl_ProjectUtumnoTileset.png");
-  background: url("..\\DungeonCrawl_ProjectUtumnoTileset.png") -160px -512px;
+  background-image: url(".\\DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url(".\\DungeonCrawl_ProjectUtumnoTileset.png") -160px -512px;
   width: 32px;
   height: 32px; }
 
 .tile833 {
   background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
-  background: url("..\\DungeonCrawl_ProjectUtumnoTileset.png") -32px -416px;
+  background: url(".\\DungeonCrawl_ProjectUtumnoTileset.png") -32px -416px;
   width: 32px;
   height: 32px; }
 
