@@ -1,0 +1,38 @@
+$viewport-cols:20;
+$viewport-rows:15;
+$viewport-col-width:32px;
+$viewport-row-height:32px;
+$cell-border:#222222;
+
+.viewport{
+  margin:0px;
+  padding:0px;
+  width: $viewport-cols * ($viewport-col-width);
+  height: $viewport-rows * ($viewport-row-height);
+  background-color:black;
+  border:0px solid $cell-border;
+}
+.viewport-row{
+  margin:0px;
+  padding:0px;
+  width: $viewport-cols * ($viewport-col-width);
+  height:$viewport-row-height;
+  background-color:purple;
+}
+.viewport-cell{
+  padding:0px;
+  margin:0px;
+  width:$viewport-col-width;
+  height:$viewport-row-height;
+  float:left;
+}
+div#preload{
+  display:none;
+}
+
+.bg1{
+  background-image:url(http://res.cloudinary.com/rparkerm/image/upload/v1485637013/floor2_zaut0m.png)
+}
+.bg2{
+  background-image:url(http://res.cloudinary.com/rparkerm/image/upload/v1485637013/floor1_spu535.png)
+}

@@ -1,0 +1,36 @@
+{
+  "name": "rpm-roguelike",
+  "version": "1.0.0",
+  "scripts": {
+    "view babel": "babel roguelikeJS.js --presets=latest,react",
+    "build": "webpack -d",
+    "babel-version": "babel --version",
+    "webpack-dev": "webpack-dev-server --progress --colors --hot",
+    "watch": "webpack -d --watch",
+    "dev-watch": "start npm run watch && start npm run run-server && start npm run run-sass",
+    "run-server": "http-server source -p 8080 -a 192.168.1.126",
+    "run-sass": "pushd \"source\" && sass --watch roguelike.scss:roguelike.css && popd"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^2.0.0-rc.2",
+    "node-sass": "^4.4.0",
+    "sass-loader": "^4.1.1"
+  },
+  "description": "Parker's FCC Roguelike",
+  "main": "roguelikeJS.js",
+  "dependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^2.2.1"
+  },
+  "author": "Richard Parker Mitchell",
+  "license": "ISC"
+}
