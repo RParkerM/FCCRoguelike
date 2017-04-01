@@ -1,5 +1,13 @@
+body {
+  background-color: black; }
+
+.viewport-container {
+  position: relative;
+  overflow: hidden;
+  margin: auto; }
+
 .viewport {
-  margin: 0px;
+  margin: auto;
   padding: 0px;
   width: 640px;
   height: 480px;
@@ -20,6 +28,31 @@
   height: 32px;
   float: left; }
 
+.spotlight {
+  background: -webkit-radial-gradient(center, ellipse cover, transparent 0%, transparent 50%, black 60%, black 100%);
+  width: 254px;
+  height: 254px;
+  border: 500px solid;
+  top: -611px;
+  position: absolute;
+  left: -611px;
+  opacity: 0.8;
+  z-index: 100; }
+
+.player-container {
+  position: absolute; }
+
+.gamelogger {
+  display: block;
+  outline: none;
+  width: 640px;
+  resize: none;
+  margin: auto;
+  height: 90px;
+  margin-top: 10px;
+  border-color: darkgray;
+  background-color: dimgray; }
+
 div#preload {
   display: none; }
 
@@ -29,16 +62,143 @@ div#preload {
 .bg2 {
   background-image: url(http://res.cloudinary.com/rparkerm/image/upload/v1485637013/floor1_spu535.png); }
 
+.player-tile {
+  background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") -128px -64px;
+  width: 32px;
+  height: 32px;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  z-index: 1; }
+
+.tile69 {
+  background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") -128px -32px;
+  width: 32px;
+  height: 32px; }
+
+.health-powerup {
+  background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") -64px -800px;
+  width: 32px;
+  height: 32px;
+  padding: 0px;
+  margin: 0px;
+  position: absolute; }
+
+.weapon-powerup {
+  background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") -128px -928px;
+  width: 32px;
+  height: 32px;
+  padding: 0px;
+  margin: 0px;
+  position: absolute; }
+
+.exit-tile {
+  background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") -480px -480px;
+  width: 32px;
+  height: 32px;
+  padding: 0px;
+  margin: 0px;
+  position: absolute; }
+
+.leader-monster-tile {
+  background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") -800px -64px;
+  width: 32px;
+  height: 32px;
+  padding: 0px;
+  margin: 0px;
+  position: absolute; }
+
+.heavy-monster-tile {
+  background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") -864px -64px;
+  width: 32px;
+  height: 32px;
+  padding: 0px;
+  margin: 0px;
+  position: absolute; }
+
+.medium-monster-tile {
+  background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") -928px -64px;
+  width: 32px;
+  height: 32px;
+  padding: 0px;
+  margin: 0px;
+  position: absolute; }
+
+.weak-monster-tile {
+  background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") -992px -64px;
+  width: 32px;
+  height: 32px;
+  padding: 0px;
+  margin: 0px;
+  position: absolute; }
+
+.boss-monster-tile {
+  background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") -1120px -64px;
+  width: 32px;
+  height: 32px;
+  padding: 0px;
+  margin: 0px;
+  position: absolute; }
+
 .tile1029 {
-  background-image: url(".\\DungeonCrawl_ProjectUtumnoTileset.png");
-  background: url(".\\DungeonCrawl_ProjectUtumnoTileset.png") -160px -512px;
+  background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") -128px -512px;
   width: 32px;
   height: 32px; }
 
 .tile833 {
   background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
-  background: url(".\\DungeonCrawl_ProjectUtumnoTileset.png") -32px -416px;
+  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") 0px -416px;
   width: 32px;
   height: 32px; }
+
+.tile834 {
+  background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") -32px -416px;
+  width: 32px;
+  height: 32px; }
+
+.tile835 {
+  background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") -64px -416px;
+  width: 32px;
+  height: 32px; }
+
+.tile836 {
+  background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") -96px -416px;
+  width: 32px;
+  height: 32px; }
+
+.tile837 {
+  background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") -128px -416px;
+  width: 32px;
+  height: 32px; }
+
+.tile838 {
+  background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") -160px -416px;
+  width: 32px;
+  height: 32px; }
+
+.tile839 {
+  background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") -192px -416px;
+  width: 32px;
+  height: 32px; }
+
+.hidden {
+  display: none; }
 
 /*# sourceMappingURL=roguelike.css.map */
