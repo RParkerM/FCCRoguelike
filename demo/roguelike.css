@@ -63,8 +63,8 @@ div#preload {
   background-image: url(http://res.cloudinary.com/rparkerm/image/upload/v1485637013/floor1_spu535.png); }
 
 .player-tile {
-  background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
-  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") -128px -64px;
+  background-image: url("./DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url("./DungeonCrawl_ProjectUtumnoTileset.png") -128px -64px;
   width: 32px;
   height: 32px;
   padding: 0px;
@@ -73,14 +73,14 @@ div#preload {
   z-index: 1; }
 
 .tile69 {
-  background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
-  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") -128px -32px;
+  background-image: url("./DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url("./DungeonCrawl_ProjectUtumnoTileset.png") -128px -32px;
   width: 32px;
   height: 32px; }
 
 .health-powerup {
-  background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
-  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") -64px -800px;
+  background-image: url("./DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url("./DungeonCrawl_ProjectUtumnoTileset.png") -64px -800px;
   width: 32px;
   height: 32px;
   padding: 0px;
@@ -88,8 +88,8 @@ div#preload {
   position: absolute; }
 
 .weapon-powerup {
-  background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
-  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") -128px -928px;
+  background-image: url("./DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url("./DungeonCrawl_ProjectUtumnoTileset.png") -128px -928px;
   width: 32px;
   height: 32px;
   padding: 0px;
@@ -97,8 +97,8 @@ div#preload {
   position: absolute; }
 
 .exit-tile {
-  background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
-  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") -480px -480px;
+  background-image: url("./DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url("./DungeonCrawl_ProjectUtumnoTileset.png") -480px -480px;
   width: 32px;
   height: 32px;
   padding: 0px;
@@ -106,8 +106,8 @@ div#preload {
   position: absolute; }
 
 .leader-monster-tile {
-  background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
-  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") -800px -64px;
+  background-image: url("./DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url("./DungeonCrawl_ProjectUtumnoTileset.png") -800px -64px;
   width: 32px;
   height: 32px;
   padding: 0px;
@@ -115,8 +115,8 @@ div#preload {
   position: absolute; }
 
 .heavy-monster-tile {
-  background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
-  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") -864px -64px;
+  background-image: url("./DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url("./DungeonCrawl_ProjectUtumnoTileset.png") -864px -64px;
   width: 32px;
   height: 32px;
   padding: 0px;
@@ -124,8 +124,8 @@ div#preload {
   position: absolute; }
 
 .medium-monster-tile {
-  background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
-  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") -928px -64px;
+  background-image: url("./DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url("./DungeonCrawl_ProjectUtumnoTileset.png") -928px -64px;
   width: 32px;
   height: 32px;
   padding: 0px;
@@ -133,8 +133,8 @@ div#preload {
   position: absolute; }
 
 .weak-monster-tile {
-  background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
-  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") -992px -64px;
+  background-image: url("./DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url("./DungeonCrawl_ProjectUtumnoTileset.png") -992px -64px;
   width: 32px;
   height: 32px;
   padding: 0px;
@@ -142,8 +142,8 @@ div#preload {
   position: absolute; }
 
 .boss-monster-tile {
-  background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
-  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") -1120px -64px;
+  background-image: url("./DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url("./DungeonCrawl_ProjectUtumnoTileset.png") -1120px -64px;
   width: 32px;
   height: 32px;
   padding: 0px;
@@ -151,50 +151,50 @@ div#preload {
   position: absolute; }
 
 .tile1029 {
-  background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
-  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") -128px -512px;
+  background-image: url("./DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url("./DungeonCrawl_ProjectUtumnoTileset.png") -128px -512px;
   width: 32px;
   height: 32px; }
 
 .tile833 {
-  background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
-  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") 0px -416px;
+  background-image: url("./DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url("./DungeonCrawl_ProjectUtumnoTileset.png") 0px -416px;
   width: 32px;
   height: 32px; }
 
 .tile834 {
-  background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
-  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") -32px -416px;
+  background-image: url("./DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url("./DungeonCrawl_ProjectUtumnoTileset.png") -32px -416px;
   width: 32px;
   height: 32px; }
 
 .tile835 {
-  background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
-  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") -64px -416px;
+  background-image: url("./DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url("./DungeonCrawl_ProjectUtumnoTileset.png") -64px -416px;
   width: 32px;
   height: 32px; }
 
 .tile836 {
-  background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
-  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") -96px -416px;
+  background-image: url("./DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url("./DungeonCrawl_ProjectUtumnoTileset.png") -96px -416px;
   width: 32px;
   height: 32px; }
 
 .tile837 {
-  background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
-  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") -128px -416px;
+  background-image: url("./DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url("./DungeonCrawl_ProjectUtumnoTileset.png") -128px -416px;
   width: 32px;
   height: 32px; }
 
 .tile838 {
-  background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
-  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") -160px -416px;
+  background-image: url("./DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url("./DungeonCrawl_ProjectUtumnoTileset.png") -160px -416px;
   width: 32px;
   height: 32px; }
 
 .tile839 {
-  background-image: url(".\DungeonCrawl_ProjectUtumnoTileset.png");
-  background: url(".\DungeonCrawl_ProjectUtumnoTileset.png") -192px -416px;
+  background-image: url("./DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url("./DungeonCrawl_ProjectUtumnoTileset.png") -192px -416px;
   width: 32px;
   height: 32px; }
 
