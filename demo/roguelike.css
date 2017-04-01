@@ -1,0 +1,44 @@
+.viewport {
+  margin: 0px;
+  padding: 0px;
+  width: 640px;
+  height: 480px;
+  background-color: black;
+  border: 0px solid #222222; }
+
+.viewport-row {
+  margin: 0px;
+  padding: 0px;
+  width: 640px;
+  height: 32px;
+  background-color: purple; }
+
+.viewport-cell {
+  padding: 0px;
+  margin: 0px;
+  width: 32px;
+  height: 32px;
+  float: left; }
+
+div#preload {
+  display: none; }
+
+.bg1 {
+  background-image: url(http://res.cloudinary.com/rparkerm/image/upload/v1485637013/floor2_zaut0m.png); }
+
+.bg2 {
+  background-image: url(http://res.cloudinary.com/rparkerm/image/upload/v1485637013/floor1_spu535.png); }
+
+.tile1029 {
+  background-image: url("..\\DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url("..\\DungeonCrawl_ProjectUtumnoTileset.png") -160px -512px;
+  width: 32px;
+  height: 32px; }
+
+.tile833 {
+  background-image: url("..\\DungeonCrawl_ProjectUtumnoTileset.png");
+  background: url("..\\DungeonCrawl_ProjectUtumnoTileset.png") -32px -416px;
+  width: 32px;
+  height: 32px; }
+
+/*# sourceMappingURL=roguelike.css.map */

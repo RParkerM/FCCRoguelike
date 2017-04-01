@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>World of Aerwor</title>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.2/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.2/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.15.0/babel.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.min.js"></script>
+    <link href="roguelike.css" rel="stylesheet" />
+</head>
+<body>
+  <button onclick="Create()">CReate</button>
+  <input type="text" id="keyboardtrigger" style="position: relative; top: 100px; background-color: transparent; border: transparent; height:0px;" />
+  <div id="viewport-container" class="viewport viewport-container">
+    <div id="player-tile" class="player-container">
+      <div class="player-tile"></div>
+      <div class="spotlight"></div>
+    </div>
+    <div id="viewport" class="viewport"></div>
+  </div>
+  <textarea class="gamelogger" readonly id="gamelogger">Welcome to the world of Aerwor</textarea>
+  <div id="controlviewer">CONTROL</div>
+  <!--<div id="preload">
+    <img src="http://res.cloudinary.com/rparkerm/image/upload/v1485637013/floor1_spu535.png" width=1 height=1></img>
+  <img src="http://res.cloudinary.com/rparkerm/image/upload/v1485637013/floor2_zaut0m.png" width=1 height=1></img>
+  </div>-->
+  <script type="text/javascript" src="bundle.js"></script>
+</body>
+</html>
